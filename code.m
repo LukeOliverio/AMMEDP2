@@ -2,7 +2,6 @@
 A = [-0.02,-90; 0, -0.02];
 B = [0; 0.00001];
 C=[1 , 0];
-C_sim = eye(2); %To get rid of observer
 
 % Reachability/Controllability matrix
 W = ctrb(A,B);
